@@ -1,0 +1,8 @@
+<section class="d-flex justify-content-center align-items-center vh-100">
+  <div class="w-50 h-50 d-flex">
+    <app-register class="w-50" (Panel)="onPanelRegistro($event)"></app-register>
+    <app-login class="w-50" (Panel)="onPanelLogin($event)"></app-login>
+    <div [ngClass]="{'default': Menu=='inicio','login': Menu=='login','registro': Menu=='registro'}"></div>    
+  </div>    
+</section>
+<!-- class="w-25 bg-primary h-50 nuevo" -->

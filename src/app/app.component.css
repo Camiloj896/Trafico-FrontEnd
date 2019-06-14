@@ -1,0 +1,44 @@
+
+/* INFORMACION POSICION DEFAULT */
+.default{    
+    position: absolute;
+    width: 25%;
+    height: 50%;    
+    background-color: black;
+}
+
+/* INFORMACION EN LOGIN */
+
+.login{
+    animation-name: login-ani;
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color: black;
+}
+
+@keyframes login-ani {
+    0%    {left: 356px;}        
+    100%  {left: 710px;} 
+ }
+
+ /* INFORMACION EN REGISTRO */
+
+.registro{
+    animation-name: registro-ani;
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    left: 710px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color: black;
+}
+
+  @keyframes registro-ani {
+    0%  {left: 710px;} 
+    100%    {left: 356px;}        
+    
+ } 
